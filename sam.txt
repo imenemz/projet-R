@@ -1,0 +1,117 @@
+step one : 
+data training 
+
+_ data processing 
+missing values 
+from data dictionary :
+age 
+adresse 
+
+solutions :
+1. replace by median 
+2. remove row
+3. create mmissing cat
+
+#must explain the choice i end up taking 
+
+variables types:
+1. default -> factor (oui/non)
+2. education -> ordinal factor
+3. categorie -> factor
+4. numeric variables -> num
+
+# explain this well more and why i picked each variables  type as i picked
+
+step two :
+
+MANDATORY!
+
+this should have :
+
+distribution of defualt 
+boxplots or histograms of 
+ . rev
+ . debcred
+ . autres
+Relationship between variables and default
+
+step Three:
+ data training 
+
+split my dataset into 80/20 
+80 for training and the rest for testing 
+i must explain each section why i used the cross validation 
+
+examples :
+
+set.seed (123)
+samples <- sample (...)
+train <- data[sapple ,]
+train <- data[sample]
+
+step 4 :
+build several classifiers (important) 
+
+thisis important
+
+sooo
+reggression losgistique 
+ddecision trees
+
+glmm (defualt ~ ., )
+
+decision trees
+
+repart 
+control depth /pruning 
+
+even if logistique win i need to compare both  methods 
+
+step five :
+evaluation des modèle 
+
+confusion max
+recall 
+flase positive rate
+ROC curve
+AUC
+
+step six:
+ choosing the best modèle 
+
+explain in the rendu why htaat modele work the best (surmènent le modèle de reggression)
+ based on ROC and AUC ad confusion matrix and accuracy 
+
+step seven :
+apply model to the new dataset 
+
+final output should include
+
+client id 
+predicted class
+probability 
+
+format : client id , prediction , proba
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
